@@ -37,8 +37,7 @@ body {
   line-height: 1.14;
   list-style-type: none;
 }
-
-.menu-link{
+.menu-link {
   color: var(--first-color);
   text-decoration: none;
 }
@@ -46,19 +45,18 @@ body {
 .navigation-links .menu-link:focus {
   color: var(--second-color);
 }
-.contact-list {
-  color: var(--fourth-color);
-  font-style: medium;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.contact-list li {
   list-style-type: none;
 }
 .contact {
   color: var(--fourth-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contact-items .contact-item:hover,
-.contact-items .contact-item:focus {
+.contact-list .contact:hover,
+.contact-list .contact:focus {
   color: var(--second-color);
 }
 .first-section {
@@ -186,6 +184,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .project-title {
   color: var(--first-color);
