@@ -199,6 +199,10 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+.localization-info:hover{
+  background-color: var(--second-color);
+  color: var(--tenth-color);
+}
 .filter-item button:hover,
 .filter-item button:focus {
   background-color: var(--second-color);
