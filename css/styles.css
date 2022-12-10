@@ -20,12 +20,12 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
+  color: var(--first-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--third-color);
   text-decoration: none;
 }
-.blue {
+.logo span {
   color: var(--second-color);
 }
 .top-line {
@@ -145,15 +145,10 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-.white {
-  color: var(--tenth-color);
-}
 .company-info {
   background-color: var(--fifth-color);
 }
-.address-info {
-  font-style: inherit;
-}
+
 .localization-info {
   color: var(--tenth-color);
 }
@@ -165,7 +160,7 @@ body {
   font-style: normal;
 }
 .contact-info {
-  color: var(--eleventh-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .company-contacts .contact-info:hover,
@@ -179,6 +174,7 @@ body {
 .filter-item button {
   background: var(--seventh-color);
   border-radius: 4px;
+  border: none;
   color: var(--first-color);
   font-weight: 500;
   font-size: 16px;
@@ -205,7 +201,14 @@ body {
   color: var(--tenth-color);
 }
 .filter-item button:hover,
-.filter-item button:focus {
+.filter-item button:focus,
+.filter-item button:active {
   background-color: var(--second-color);
   color: var(--tenth-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.company-info .logo{
+  color:#eeeeee;
 }
